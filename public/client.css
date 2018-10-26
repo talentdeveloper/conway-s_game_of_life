@@ -1,0 +1,28 @@
+.content {
+	
+}
+table{
+    display: table;
+    border-spacing: 2px;
+    border-color: grey;
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+
+}
+td{
+	border: 1px solid #dddddd;
+    text-align: left;
+	width:11px;
+	height:11px;
+
+}
+#rows, #cols{
+	width:20px;
+}
+.white_piece
+{
+	width:7px;
+	height:7px;
+	margin:2px;
+	background-color:white;
+}

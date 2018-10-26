@@ -1,0 +1,36 @@
+<html>
+ <head>
+  <title> Client </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link rel="stylesheet" href="client.css">
+ 
+	<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+	 <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+	</script>
+	<script src="client.js"></script>
+ </head>
+ <body>  
+	
+	<div class="content">
+		<table id="panel"></table>
+	</div>
+	<div class="bottom">
+		<div>
+			<label>FILL THE GRID</label>
+			<select id="LifePresetList">
+				<option value="none" disabled="disabled" selected="selected">Select a predefined pattern</option>
+				<option value="block">Block</option>
+				<option value="beehive">Beehive</option>
+				<option value="blinker">Blinker</option>
+				<option value="beacon">Beacon</option>
+			</select>
+		</div>
+		<div>
+			<input type="button" id="btn_play" value="Play" disabled>
+		</div>
+	</div>
+ </body>
+</html>
